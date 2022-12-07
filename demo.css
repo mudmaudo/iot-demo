@@ -1,0 +1,58 @@
+  body{
+      display: block;
+      overflow: hidden;
+    }
+    nav{
+      background-color: white;
+    }
+    .navbar-brand img{
+    max-height: 10px;
+    }
+    section{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    section h1{
+      text-transform: uppercase   ;
+      font-weight: 900;
+      color: #683aa4;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    section p{
+      font-size: 16px;
+      font-weight: 300;  
+    }
+    button{
+      max-width: 50%;
+      border-radius:50% !important ;
+    } 
+    #midpart.col{
+      justify-content: center;
+      flex-direction:column ;
+      display: flex;
+    }
+    #midpart.img-col{
+      justify-content: flex-end ;
+      margin-top:100px;
+    }
+    #midpart img{
+      max-width: 130% !important;
+      width: 130%;
+    }
+    #midpart.card{
+      box-shadow: 11px 7px 16px #f9f9f9;
+      border:0;
+      text-align: center;
+    }
+    #midpart.icon{
+      width: 10px;
+      height: 10px;
+      margin-bottom: 10px;
+    }
+    #light1{
+      left:  auto ;
+    }
+    #light2{
+      right: auto;
+    }
